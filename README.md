@@ -42,7 +42,7 @@ You can use it for viewing my professional details.
 
 ## Authors
 
-👤 **Author1**
+👤 Divyansh Singh
 
 - GitHub: [@githubhandle](https://github.com/divyanshthinks)
 - Twitter: [@twitterhandle](https://twitter.com/Devilstheory1)
