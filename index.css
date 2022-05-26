@@ -51,6 +51,8 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .spec {
@@ -63,6 +65,8 @@ a:hover {
   background-image: url(resources/Ellipse\ 19.png);
   background-repeat: no-repeat;
   background-position: right;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .divider {
