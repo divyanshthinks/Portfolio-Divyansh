@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # This project is a personal portfolio.
-
+![](resources/screen.png)
 > It is a personal portfolio with all the proffesional details about me.
 
 
