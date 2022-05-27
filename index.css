@@ -1,0 +1,114 @@
+body {
+  background-color: #191765;
+  background-image: url(resources/Ellipse\ 18.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.list {
+  list-style-type: none;
+  color: azure;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+#header-image {
+  margin-right: 20px;
+  width: 35px;
+  height: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+#main {
+  margin-top: 120px;
+  color: #7d73fc;
+}
+
+#job {
+  margin-top: 12px;
+  color: #edecff;
+}
+
+.para {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #646369;
+  margin: 0 20px;
+  color: #c8c8d4;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.spec {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #646369;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(resources/Ellipse\ 19.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  gap: 24px;
+  line-height: 24px;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-right: 13px;
+}
+
+ul {
+  list-style: none;
+  color: #f5f5ff;
+  font-size: 13px;
+}
+
+.list-heading {
+  color: #9490ff;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+#last-img {
+  position: absolute;
+  left: 130px;
+}
