@@ -118,6 +118,7 @@ ul {
   grid-template-columns: none;
   grid-template-rows: none;
   justify-content: space-evenly;
+  padding-right: 15px;
 }
 
 #button1 {
@@ -142,6 +143,7 @@ ul {
 .lang {
   border-right: 1px solid gray;
   border-width: 1px;
+  padding-right: 15px;
 }
 
 .lang:last-child {
@@ -150,10 +152,11 @@ ul {
 
 #list1 {
   display: flex;
-  align-items: cemter;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   color: #fff;
+  padding-right: 15px;
 }
 
 #sub-heading1 {
