@@ -112,15 +112,15 @@ ul {
   position: absolute;
   left: 130px;
 }
+
 .work {
   display: grid;
   grid-template-columns: none;
   grid-template-columns: none;
   justify-content: space-evenly;
- 
-}
+ }
 
-#button1 {
+ #button1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -146,44 +146,49 @@ ul {
 }
 
 #list1 {
-display: flex;
-align-items: cemter;
-font-family: 'Inter';
-font-size: 15px;
-color: #FFFFFF;
+  display: flex;
+  align-items: cemter;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #FFFFFF;
 }
+
 #sub-heading1 {
   display: flex;
-  justify-content: center;
- font-family: 'Roboto';
- font-size:  32px;
- color: #FFFFFF;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size:  32px;
+  color: #FFFFFF;
  
 }
+
 #content1 {
   display: flex;
   justify-content: center;
   font-family: 'Inter';
-font-style: normal;
-font-size: 20px;
-color: #DCDCE8;
+  font-style: normal;
+  font-size: 20px;
+  color: #DCDCE8;
 }
+
 .img-container1 {
   background-image: url(resources/Ellipse\ 19@2x.png);
- background-repeat: no-repeat;
- background-position: left top;
- background-size: 100% 100%;
- 
-}
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 100%;
+ }
+
 #heading {
   display: flex;
-  align-items: center;
   justify-content: center;
   font-family: 'Roboto';
-font-style: normal;
-font-size: 32px;
-color: #FFFFFF;
+  font-style: normal;
+  font-size: 40px;
+  color: #9490FF;
+  border-bottom: 2px solid #646369;
+  flex-wrap: wrap;
 }
+
 #button2 {
   display: flex;
   flex-direction: row;
@@ -197,10 +202,12 @@ color: #FFFFFF;
   font-family: 'Roboto';
   color: #EDECFF;
 }
+
 #button2:hover {
   cursor: pointer;
   background-color: purple;
 }
+
 #list2 {
   display: flex;
   align-items: cemter;
@@ -208,111 +215,127 @@ color: #FFFFFF;
   font-size: 15px;
   color: #FFFFFF;
   }
-  #sub-heading2 {
-   font-family: 'Roboto';
-   font-size:  32px;
-   color: #FFFFFF;
+
+#sub-heading2 {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size:  32px;
+  color: #FFFFFF;
   }
-  #content2 {
-    font-family: 'Inter';
+
+#content2 {
+  font-family: 'Inter';
   font-style: normal;
   font-size: 20px;
   color: #DCDCE8;
   }
-  .img-container2 {
-    background-image: url(resources/fig2.png);
-   background-repeat: no-repeat;
-   background-position: 100px 2px;
-   background-size: 100% 100%;
-   
+
+.img-container2 {
+  background-image: url(resources/fig2.png);
+  background-repeat: no-repeat;
+  background-position: 100px 2px;
+  background-size: 100% 100%;
   }
-  #button3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    width: 90px;
-    background-color: #7D73FC;
-    height: 35px;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Roboto';
-    color: #EDECFF;
+
+#button3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 90px;
+  background-color: #7D73FC;
+  height: 35px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #EDECFF;
   }
-  #button3:hover {
-    cursor: pointer;
-    background-color: purple;
+
+#button3:hover {
+  cursor: pointer;
+  background-color: purple;
   }
-  #list3 {
-    display: flex;
-    align-items: cemter;
-    font-family: 'Inter';
-    font-size: 15px;
-    color: #FFFFFF;
-    }
-    #sub-heading3 {
-     font-family: 'Roboto';
-     font-size:  32px;
-     color: #FFFFFF;
-     font-family: 'Roboto';
-   font-size:  32px;
-   color: #FFFFFF;
-    }
-    #content3 {
-      font-family: 'Inter';
-    font-style: normal;
-    font-size: 20px;
-    color: #DCDCE8;
-    }
-    .img-container3 {
-      background-image: url(resources/fig3.png);
-     background-repeat: no-repeat;
-     background-position: 50% 50%;
-     background-size: 100% 100%;
-     
-    }
-    #button4 {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding: 12px;
-      width: 90px;
-      background-color: #7D73FC;
-      height: 35px;
-      text-align: center;
-      font-size: 12px;
-      font-family: 'Roboto';
-      color: #EDECFF;
-    }
-    #button4:hover {
-      cursor: pointer;
-      background-color: purple;
-    }
-    #list4 {
-      display: flex;
-      align-items: cemter;
-      font-family: 'Inter';
-      font-size: 15px;
-      color: #FFFFFF;
-      }
-      #sub-heading4 {
-       font-family: 'Roboto';
-       font-size:  32px;
-       color: #FFFFFF;
-       font-family: 'Roboto';
-   font-size:  32px;
-   color: #FFFFFF;
-      }
-      #content4 {
-        font-family: 'Inter';
-      font-style: normal;
-      font-size: 20px;
-      color: #DCDCE8;
-      }
-      .img-container4 {
-        background-image: url(resources/fig4.png);
-       background-repeat: no-repeat;
-       background-position: right top;
-       
-      }
-     
+
+#list3 {
+  display: flex;
+  align-items: cemter;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #FFFFFF;
+  }
+
+#sub-heading3 {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size:  32px;
+  color: #FFFFFF;
+  }
+
+#content3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 20px;
+  color: #DCDCE8;
+  }
+
+.img-container3 {
+  background-image: url(resources/fig3.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  }
+
+#button4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 90px;
+  background-color: #7D73FC;
+  height: 35px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #EDECFF;
+  }
+
+#button4:hover {
+  cursor: pointer;
+  background-color: purple;
+}
+
+#list4 {
+  display: flex;
+  align-items: cemter;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+#sub-heading4 {
+  font-family: 'Roboto';
+  font-size:  32px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  }
+
+#content4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 20px;
+  color: #DCDCE8;
+  }
+
+.img-container4 {
+  background-image: url(resources/fig4.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.work-image {
+  display: flex;
+  align-items: center;
+}
