@@ -209,8 +209,8 @@ ul {
 }
 
 #button2:hover {
-  cursor: pointer;
   background-color: purple;
+  cursor: pointer;
 }
 
 #list2 {
