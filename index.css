@@ -127,6 +127,7 @@ ul {
   flex-direction: column;
   padding-left: 50px;
 }
+
 #list1 {
   display: flex;
   justify-content: right;
@@ -137,6 +138,7 @@ ul {
   color: #fff;
   font-weight: 500;
 }
+
 #button1 {
   display: flex;
   justify-content: right;
@@ -151,10 +153,12 @@ ul {
   color: #edecff;
   margin-right: 250px;
 }
+
 #button1:hover {
   width: 95px;
   height: 40px;
 }
+
 #heading {
   display: flex;
   justify-content: center;
@@ -201,12 +205,14 @@ ul {
 .lang:last-child {
   border: none;
 }
+
 .project2 {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-left: 50px;
 }
+
 #list2 {
   display: flex;
   justify-content: right;
@@ -217,6 +223,7 @@ ul {
   color: #fff;
   font-weight: 500;
 }
+
 #button2 {
   display: flex;
   justify-content: right;
@@ -232,10 +239,12 @@ ul {
   margin-right: 250px;
   font-weight: 500;
 }
+
 #button2:hover {
   width: 95px;
   height: 40px;
 }
+
 #sub-heading2 {
   display: flex;
   align-items: center;
@@ -267,6 +276,7 @@ ul {
   flex-direction: column;
   padding-left: 50px;
 }
+
 #list3 {
   display: flex;
   justify-content: right;
@@ -277,6 +287,7 @@ ul {
   color: #fff;
   font-weight: 500;
 }
+
 #button3 {
   display: flex;
   justify-content: right;
@@ -292,10 +303,12 @@ ul {
   margin-right: 250px;
   font-weight: 500;
 }
+
 #button3:hover {
   width: 95px;
   height: 40px;
 }
+
 #sub-heading3 {
   display: flex;
   align-items: center;
@@ -327,6 +340,7 @@ ul {
   flex-direction: column;
   padding-left: 50px;
 }
+
 #list4 {
   display: flex;
   justify-content: right;
@@ -337,6 +351,7 @@ ul {
   color: #fff;
   font-weight: 500;
 }
+
 #button4 {
   display: flex;
   justify-content: right;
@@ -352,10 +367,12 @@ ul {
   margin-right: 250px;
   font-weight: 500;
 }
+
 #button4:hover {
   width: 95px;
   height: 40px;
 }
+
 #sub-heading4 {
   display: flex;
   align-items: center;
