@@ -129,10 +129,8 @@ ul {
 }
 
 #list1 {
-  display: flex;
-  justify-content: right;
-  padding-right: 50px;
-  align-items: center;
+  
+  float: left;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   color: #fff;
