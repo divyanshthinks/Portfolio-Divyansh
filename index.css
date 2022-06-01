@@ -397,7 +397,7 @@ ul {
   background-position: right top;
 }
 
-.footer {
+.last-footer {
   display: flex;
   flex-direction: column;
 }
@@ -426,12 +426,6 @@ ul {
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid #646369;
-}
-
-.footer-image {
-  border-top: 5px gray;
-  display: flex;
-  flex-direction: row;
 }
 
 #footer-name {
