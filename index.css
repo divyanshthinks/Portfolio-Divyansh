@@ -522,8 +522,8 @@ ul {
 
 #footer-button:hover {
   background: #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
-  left: 272.5px;
+  box-shadow: 0, 8px, 16px, 0 #7d73fc7a;
+  left: 272px;
 }
 
 #footer-button:active {
