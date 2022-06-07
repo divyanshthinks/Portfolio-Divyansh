@@ -459,6 +459,15 @@ ul {
   margin-left: 20px;
 }
 
+#textarea::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 15px; 
+}
+
 #footer-button {
   width: 89px;
   height: 48px;
@@ -471,7 +480,8 @@ ul {
   font-weight: 500;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  margin-left: 120px;
+  margin-top: 40px;
+  margin-left: 143px;
   margin-bottom: 60px;
 }
 
@@ -512,4 +522,17 @@ ul {
 #footer-button:hover {
   width: 92px;
   height: 51px;
+  background: #7D73FC;
+}
+
+#footer-button:active {
+  background: #5E42D7;
+}
+
+#footer-button:disabled {
+  background: #2A2B33;
+}
+
+#footer-button:enabled {
+  background: #7D73FC;
 }
