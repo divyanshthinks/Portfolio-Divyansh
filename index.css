@@ -460,12 +460,12 @@ ul {
 }
 
 #textarea::placeholder {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   padding-top: 15px;
-  padding-left: 15px; 
+  padding-left: 15px;
 }
 
 #footer-button {
@@ -522,17 +522,17 @@ ul {
 #footer-button:hover {
   width: 92px;
   height: 51px;
-  background: #7D73FC;
+  background: #7d73fc;
 }
 
 #footer-button:active {
-  background: #5E42D7;
+  background: #5e42d7;
 }
 
 #footer-button:disabled {
-  background: #2A2B33;
+  background: #2a2b33;
 }
 
 #footer-button:enabled {
-  background: #7D73FC;
+  background: #7d73fc;
 }
