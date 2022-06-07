@@ -471,6 +471,7 @@ ul {
 #footer-button {
   width: 89px;
   height: 48px;
+  left: 109.5px;
   background-color: #7d73fc;
   color: white;
   display: flex;
@@ -520,9 +521,9 @@ ul {
 }
 
 #footer-button:hover {
-  width: 92px;
-  height: 51px;
   background: #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  left: 272.5px;
 }
 
 #footer-button:active {
@@ -531,8 +532,4 @@ ul {
 
 #footer-button:disabled {
   background: #2a2b33;
-}
-
-#footer-button:enabled {
-  background: #7d73fc;
 }
