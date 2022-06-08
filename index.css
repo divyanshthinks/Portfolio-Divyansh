@@ -3,6 +3,8 @@ body {
   background-image: url(resources/Ellipse\ 18.png);
   background-repeat: no-repeat;
   background-position: left top;
+  width: 100%;
+  height: auto;
 }
 
 .list {
