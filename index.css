@@ -535,3 +535,492 @@ ul {
 #footer-button:disabled {
   background: #2a2b33;
 }
+
+@media (min-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .for {
+   background-image: url(resources/circle\ 1\ header.png);
+   background-repeat: no-repeat;
+  }
+
+  .para {
+    text-align: center;
+  }
+
+  .spec {
+    justify-content: center;
+  }
+
+  .work-text {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #heading {
+    justify-content: flex-start;
+    margin-top: 400px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  #last-img1 {
+    margin-left: 300px;
+  }
+
+  .work-image {
+    display: none;
+  }
+
+  .desktop-project1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px; 
+  }
+
+  .work {
+    background-image: url(resources/bg-images.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  #desktop-list1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-content1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  
+  .project1 {
+    display: none;
+  }
+
+  #desktop-subheading1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    flex-wrap: wrap;
+    margin-left: 30px;
+  }
+
+  #desktop-content1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #dcdce8;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  #desktop-list1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  #desktop-button1 {
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    padding-right: 12px;
+    width: 90px;
+    background-color: #7d73fc;
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #edecff;
+    margin-left: 30px;
+  }
+
+  #desktop-button1:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
+
+  #desktop-button1:active {
+    background: #5e42d7;
+  }
+
+  #desktop-button2:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
+
+  #desktop-button2:active {
+    background: #5e42d7;
+  }
+
+  #desktop-button3:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
+
+  #desktop-button3:active {
+    background: #5e42d7;
+  }
+
+  #desktop-button4:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
+
+  #desktop-button4:active {
+    background: #5e42d7;
+  }
+
+  #desktop-footer-button:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;  
+  }
+
+  #desktop-footer-button:active {
+    background: #5e42d7;  
+  }
+
+  .desktop-project2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .desktop-content2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+  }
+
+  #desktop-list2 {
+    display: flex;
+    flex-direction: row;  
+  }
+
+  #desktop-subheading2 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    flex-wrap: wrap;
+    margin-left: 30px;  
+   }
+
+   #desktop-content2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #dcdce8;
+    font-weight: 500;
+    text-align: left; 
+    margin-left: 30px; 
+   }
+
+   #desktop-list2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;  
+   }
+
+   #desktop-button2 {
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    padding-right: 12px;
+    width: 90px;
+    background-color: #7d73fc;
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #edecff;
+    margin-left: 30px;  
+   }
+
+   .project2 {
+     display: none;
+   }
+
+   .desktop-project3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  #desktop-list3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-content3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+
+  .project3 {
+    display: none;
+  }
+
+  #desktop-subheading3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    flex-wrap: wrap;
+    margin-left: 30px;
+  }
+
+  #desktop-content3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #dcdce8;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  #desktop-list3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  #desktop-button3 {
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    padding-right: 12px;
+    width: 90px;
+    background-color: #7d73fc;
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #edecff;
+    margin-left: 30px;
+  }
+
+  .desktop-project4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .desktop-content4 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+  }
+
+  #desktop-list4 {
+    display: flex;
+    flex-direction: row;  
+  }
+
+  #desktop-subheading4 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    flex-wrap: wrap;
+    margin-left: 30px;  
+   }
+
+   #desktop-content4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #dcdce8;
+    font-weight: 500;
+    text-align: left; 
+    margin-left: 30px; 
+   }
+
+   #desktop-list4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;  
+   }
+
+   #desktop-button4 {
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    padding-right: 12px;
+    width: 90px;
+    background-color: #7d73fc;
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #edecff;
+    margin-left: 30px;  
+   }
+
+   .project4 {
+     display: none;
+   }
+
+   #footer-heading {
+     display: none;
+   }
+
+   #desktop-footer-heading {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9390ff;
+  }
+
+  #footer-content {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer-name {
+    height: 48px;
+    width: 684px;
+    left: 0px;
+    top: 0px;
+    border-radius: 2px;
+  }
+
+  #email {
+    height: 48px;
+    width: 684px;
+    left: 0px;
+    top: 0px;
+    border-radius: 2px;
+  }
+
+  #textarea {
+    height: 136px;
+    width: 684px;
+    left: 0px;
+    top: -44px;
+    border-radius: 2px;
+  }
+
+  #footer-button {
+    display: none;
+  }
+
+  #desktop-footer-button {
+    width: 89px;
+    height: 48px;
+    left: 109.5px;
+    background-color: #7d73fc;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    margin-right: 20px;  
+  }
+
+  .footer-image {
+    display: none;
+  }
+
+  #footer-text {
+    display: none;
+  }
+
+  .adjust {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #my-email {
+    margin-top: 10px;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  .spec {
+    background-image: url(resources/circle\ 2\ header@2x.png);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-header {
+    display: none;
+  }
+
+  #last-img2 {
+    display: none;
+  }
+
+  .desktop-project1 {
+    display: none;
+  }
+
+  .desktop-project2 {
+    display: none;
+  }
+
+  .desktop-project3 {
+    display: none;
+  }
+
+  .desktop-project4 {
+    display: none;
+  }
+
+  #desktop-footer-heading {
+    display: none;
+  }
+
+  #desktop-footer-button {
+    display: none;
+  }
+
+  .desktop-footer-image {
+    display: none;
+  }
+}
