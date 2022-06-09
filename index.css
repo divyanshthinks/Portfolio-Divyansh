@@ -542,16 +542,12 @@ ul {
   }
 
   .for {
-   background-image: url(resources/circle\ 1\ header.png);
-   background-repeat: no-repeat;
+    background-image: url(resources/circle\ 1\ header.png);
+    background-repeat: no-repeat;
   }
 
   .para {
     text-align: center;
-  }
-
-  .spec {
-    justify-content: center;
   }
 
   .work-text {
@@ -580,7 +576,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
   }
 
   .work {
@@ -589,17 +585,12 @@ ul {
     background-position: bottom;
   }
 
-  #desktop-list1 {
-    display: flex;
-    flex-direction: row;
-  }
-
   .desktop-content1 {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
   }
-  
+
   .project1 {
     display: none;
   }
@@ -630,6 +621,8 @@ ul {
     font-size: 15px;
     color: #fff;
     font-weight: 500;
+    display: flex;
+    flex-direction: row;
   }
 
   #desktop-button1 {
@@ -655,38 +648,6 @@ ul {
     background: #5e42d7;
   }
 
-  #desktop-button2:hover {
-    box-shadow: 0 8px 16px 0 #7d73fc7a;
-  }
-
-  #desktop-button2:active {
-    background: #5e42d7;
-  }
-
-  #desktop-button3:hover {
-    box-shadow: 0 8px 16px 0 #7d73fc7a;
-  }
-
-  #desktop-button3:active {
-    background: #5e42d7;
-  }
-
-  #desktop-button4:hover {
-    box-shadow: 0 8px 16px 0 #7d73fc7a;
-  }
-
-  #desktop-button4:active {
-    background: #5e42d7;
-  }
-
-  #desktop-footer-button:hover {
-    box-shadow: 0 8px 16px 0 #7d73fc7a;  
-  }
-
-  #desktop-footer-button:active {
-    background: #5e42d7;  
-  }
-
   .desktop-project2 {
     display: flex;
     flex-direction: row-reverse;
@@ -700,11 +661,6 @@ ul {
     padding-right: 50px;
   }
 
-  #desktop-list2 {
-    display: flex;
-    flex-direction: row;  
-  }
-
   #desktop-subheading2 {
     display: flex;
     align-items: center;
@@ -713,27 +669,29 @@ ul {
     color: #fff;
     font-weight: 500;
     flex-wrap: wrap;
-    margin-left: 30px;  
-   }
+    margin-left: 30px;
+  }
 
-   #desktop-content2 {
+  #desktop-content2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 20px;
     color: #dcdce8;
     font-weight: 500;
-    text-align: left; 
-    margin-left: 30px; 
-   }
+    text-align: left;
+    margin-left: 30px;
+  }
 
-   #desktop-list2 {
+  #desktop-list2 {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: #fff;
-    font-weight: 500;  
-   }
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+  }
 
-   #desktop-button2 {
+  #desktop-button2 {
     display: flex;
     justify-content: right;
     padding-top: 10px;
@@ -745,23 +703,26 @@ ul {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #edecff;
-    margin-left: 30px;  
-   }
+    margin-left: 30px;
+  }
 
-   .project2 {
-     display: none;
-   }
+  #desktop-button2:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
 
-   .desktop-project3 {
+  #desktop-button2:active {
+    background: #5e42d7;
+  }
+
+  .project2 {
+    display: none;
+  }
+
+  .desktop-project3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 50px;
-  }
-
-  #desktop-list3 {
-    display: flex;
-    flex-direction: row;
   }
 
   .desktop-content3 {
@@ -800,6 +761,8 @@ ul {
     font-size: 15px;
     color: #fff;
     font-weight: 500;
+    display: flex;
+    flex-direction: row;
   }
 
   #desktop-button3 {
@@ -817,6 +780,14 @@ ul {
     margin-left: 30px;
   }
 
+  #desktop-button3:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
+
+  #desktop-button3:active {
+    background: #5e42d7;
+  }
+
   .desktop-project4 {
     display: flex;
     flex-direction: row-reverse;
@@ -830,11 +801,6 @@ ul {
     padding-right: 50px;
   }
 
-  #desktop-list4 {
-    display: flex;
-    flex-direction: row;  
-  }
-
   #desktop-subheading4 {
     display: flex;
     align-items: center;
@@ -843,27 +809,29 @@ ul {
     color: #fff;
     font-weight: 500;
     flex-wrap: wrap;
-    margin-left: 30px;  
-   }
+    margin-left: 30px;
+  }
 
-   #desktop-content4 {
+  #desktop-content4 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 20px;
     color: #dcdce8;
     font-weight: 500;
-    text-align: left; 
-    margin-left: 30px; 
-   }
+    text-align: left;
+    margin-left: 30px;
+  }
 
-   #desktop-list4 {
+  #desktop-list4 {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: #fff;
-    font-weight: 500;  
-   }
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+  }
 
-   #desktop-button4 {
+  #desktop-button4 {
     display: flex;
     justify-content: right;
     padding-top: 10px;
@@ -875,33 +843,41 @@ ul {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #edecff;
-    margin-left: 30px;  
-   }
+    margin-left: 30px;
+  }
 
-   .project4 {
-     display: none;
-   }
+  #desktop-button4:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
 
-   #footer-heading {
-     display: none;
-   }
+  #desktop-button4:active {
+    background: #5e42d7;
+  }
 
-   #desktop-footer-heading {
-    font-family: Roboto;
+  .project4 {
+    display: none;
+  }
+
+  #footer-heading {
+    display: none;
+  }
+
+  #desktop-footer-heading {
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     color: #9390ff;
   }
 
   #footer-content {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
   }
 
@@ -915,23 +891,23 @@ ul {
   #footer-name {
     height: 48px;
     width: 684px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 2px;
   }
 
   #email {
     height: 48px;
     width: 684px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 2px;
   }
 
   #textarea {
     height: 136px;
     width: 684px;
-    left: 0px;
+    left: 0;
     top: -44px;
     border-radius: 2px;
   }
@@ -956,7 +932,15 @@ ul {
     margin-top: 40px;
     margin-left: 100px;
     margin-bottom: 60px;
-    margin-right: 20px;  
+    margin-right: 20px;
+  }
+
+  #desktop-footer-button:hover {
+    box-shadow: 0 8px 16px 0 #7d73fc7a;
+  }
+
+  #desktop-footer-button:active {
+    background: #5e42d7;
   }
 
   .footer-image {
@@ -984,6 +968,7 @@ ul {
   .spec {
     background-image: url(resources/circle\ 2\ header@2x.png);
     background-repeat: no-repeat;
+    justify-content: center;
   }
 }
 
@@ -993,6 +978,10 @@ ul {
   }
 
   #last-img2 {
+    display: none;
+  }
+
+  #last-img1 {
     display: none;
   }
 
