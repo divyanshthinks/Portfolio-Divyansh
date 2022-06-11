@@ -844,10 +844,14 @@ ul {
     font-family: 'Roboto', sans-serif;
     color: #edecff;
     margin-left: 30px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
   }
 
   #desktop-button4:hover {
     box-shadow: 0 8px 16px 0 #7d73fc7a;
+    font-size: 20px;
   }
 
   #desktop-button4:active {
