@@ -638,10 +638,14 @@ ul {
     font-family: 'Roboto', sans-serif;
     color: #edecff;
     margin-left: 30px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
   }
 
   #desktop-button1:hover {
     box-shadow: 0 8px 16px 0 #7d73fc7a;
+    font-size: 38px;
   }
 
   #desktop-button1:active {
@@ -704,10 +708,14 @@ ul {
     font-family: 'Roboto', sans-serif;
     color: #edecff;
     margin-left: 30px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
   }
 
   #desktop-button2:hover {
     box-shadow: 0 8px 16px 0 #7d73fc7a;
+    font-size: 38px;
   }
 
   #desktop-button2:active {
@@ -778,10 +786,14 @@ ul {
     font-family: 'Roboto', sans-serif;
     color: #edecff;
     margin-left: 30px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
   }
 
   #desktop-button3:hover {
     box-shadow: 0 8px 16px 0 #7d73fc7a;
+    font-size: 38px;
   }
 
   #desktop-button3:active {
@@ -851,7 +863,7 @@ ul {
 
   #desktop-button4:hover {
     box-shadow: 0 8px 16px 0 #7d73fc7a;
-    font-size: 20px;
+    font-size: 38px;
   }
 
   #desktop-button4:active {
@@ -937,10 +949,14 @@ ul {
     margin-left: 100px;
     margin-bottom: 60px;
     margin-right: 20px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
   }
 
   #desktop-footer-button:hover {
     box-shadow: 0 8px 16px 0 #7d73fc7a;
+    font-size: 38px;
   }
 
   #desktop-footer-button:active {
