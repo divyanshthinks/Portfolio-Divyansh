@@ -9,7 +9,7 @@
 
 - HTML and CSS
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://divyanshthinks.github.io/Portfolio-Divyansh/)
 
