@@ -641,6 +641,7 @@ ul {
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
+    filter: contrast(150%);
   }
 
   #desktop-button1:hover {
@@ -711,6 +712,7 @@ ul {
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
+    filter: contrast(150%);
   }
 
   #desktop-button2:hover {
@@ -789,6 +791,7 @@ ul {
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
+    filter: contrast(150%);
   }
 
   #desktop-button3:hover {
@@ -859,6 +862,7 @@ ul {
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
+    filter: contrast(150%);
   }
 
   #desktop-button4:hover {
@@ -952,6 +956,7 @@ ul {
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
+    filter: contrast(150%);
   }
 
   #desktop-footer-button:hover {
