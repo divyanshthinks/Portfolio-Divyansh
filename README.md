@@ -8,6 +8,7 @@
 ## Built With
 
 - HTML and CSS
+- JavaScript
 
 ## Live Demo
 
@@ -22,22 +23,20 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites 
-No prerequisites
+-Github flow knowledge.
+-Basic CSS and HTML.
+-Installation of files.
+-Use of Figma templates
 
 ### Setup
 Clone the repsoitory to your local system.
 
 ### Install
 Run in your code-editor.
+Linter installation
 
 ### Usage
 You can use it for viewing my professional details.
-
-
-
-
-
-
 
 ## Authors
 
@@ -46,6 +45,13 @@ You can use it for viewing my professional details.
 - GitHub: [@githubhandle](https://github.com/divyanshthinks)
 - Twitter: [@twitterhandle](https://twitter.com/Devilstheory1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/divyansh-singh-a78709157/)
+
+
+👤 Natasha Chirombe
+
+-- GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
+- Twitter: [@NatashaChirombe]
+- LinkedIn: [Natasha Chirombe](linkedin.com/in/natasha-chirombe-1531aa17b)
 
 
 
