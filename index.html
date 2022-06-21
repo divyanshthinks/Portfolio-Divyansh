@@ -6,15 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divyansh Singh</title>
    <link rel="stylesheet" href="index.css">
+   <script src="./script.js" defer></script>
 </head>
 <body>
     <div>
     <header>
     <nav class="header">
-       <ul class="list">
-           <li class="item" id="name"> <a href="#">Divyansh Singh</a> </li>
-        </ul>
-        <img id="header-image" src="resources/Union.png" alt="union">
+       <a href="#" id="logo">Divyansh</a>
+       <ul class="navPop">
+        <li><a href="#Portfolio" class="nav-item">Portfolio</a></li>
+        <img src="resources/icon.png" alt="icon" id="icon1">
+        <li id="item2"><a href="#main" class="nav-item">About</a></li>
+        <img src="resources/icon.png" alt="icon" id="icon2">
+        <li id="item3"><a href="#footer" class="nav-item">Contact</a></li>
+        <img src="resources/icon.png" alt="icon" id="icon3">      
+       </ul>
+
+       <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
     </nav>
     <nav class="desktop-header">
         <img src="resources/Top Naviagation.png" alt="nav" id="desktop-header-image">
@@ -99,7 +111,7 @@
    <br>
    <br>
    <br>
-   <section class="work">
+   <section class="work" id="Portfolio">
    <a href="#"><h2 id="heading">My Recent Work</h2></a>
     <br>
     <div class="project1">
@@ -255,7 +267,7 @@
  <br>
  <br>
  <br>
- <footer class="last-footer">
+ <footer class="last-footer" id="footer">
     <h2 id="footer-heading">CONTACT US</h2>
     <h2 id="desktop-footer-heading">Let's Chat</h2>
    <p id="footer-content"> If you have an application you are interested 
