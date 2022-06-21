@@ -58,7 +58,6 @@ body {
   background-size: 100%;
 }
 
-
 .navPop.active {
   transform: translateX(0%);
   align-items: center;
@@ -67,11 +66,11 @@ body {
 }
 
 .nav-item {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 #icon1 {
@@ -91,13 +90,13 @@ body {
   left: 12px;
   top: 10px;
   border-radius: nullpx;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 #icon2 {
@@ -731,7 +730,8 @@ ul {
     color: #dcdce8;
     font-weight: 500;
     text-align: left;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
   }
 
   #desktop-list1 {
@@ -755,7 +755,8 @@ ul {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #edecff;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
@@ -791,7 +792,8 @@ ul {
     color: #fff;
     font-weight: 500;
     flex-wrap: wrap;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
   }
 
   #desktop-content2 {
@@ -801,7 +803,8 @@ ul {
     color: #dcdce8;
     font-weight: 500;
     text-align: left;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
   }
 
   #desktop-list2 {
@@ -825,7 +828,8 @@ ul {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #edecff;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
@@ -869,7 +873,8 @@ ul {
     color: #fff;
     font-weight: 500;
     flex-wrap: wrap;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
   }
 
   #desktop-content3 {
@@ -879,7 +884,8 @@ ul {
     color: #dcdce8;
     font-weight: 500;
     text-align: left;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
   }
 
   #desktop-list3 {
@@ -903,7 +909,8 @@ ul {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #edecff;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
@@ -922,7 +929,8 @@ ul {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    /*margin-bottom: 50px;*/
+
+    /* margin-bottom: 50px; */
   }
 
   .desktop-content4 {
@@ -939,7 +947,8 @@ ul {
     color: #fff;
     font-weight: 500;
     flex-wrap: wrap;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
   }
 
   #desktop-content4 {
@@ -949,7 +958,8 @@ ul {
     color: #dcdce8;
     font-weight: 500;
     text-align: left;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
   }
 
   #desktop-list4 {
@@ -973,7 +983,8 @@ ul {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #edecff;
-    /*margin-left: 30px;*/
+
+    /* margin-left: 30px; */
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
@@ -1064,7 +1075,8 @@ ul {
     font-size: 12px;
     font-family: "Roboto", sans-serif;
     margin-top: 40px;
-    /*margin-left: 100px;*/
+
+    /* margin-left: 100px; */
     margin-bottom: 60px;
     margin-right: 20px;
     transition-property: font-size;
