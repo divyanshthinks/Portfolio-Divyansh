@@ -153,6 +153,7 @@ a:hover {
   font-size: 48px;
   text-align: center;
 }
+
 #main {
   margin-top: 120px;
   color: #7d73fc;
@@ -340,8 +341,8 @@ ul {
   height: auto;
   justify-content: center;
   background: rgba(255, 255, 255, 0.16);
-  border: 1px solid #FFFFFF;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);  
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 .pop-title {
@@ -356,9 +357,9 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   align-items: center;
 }
@@ -371,8 +372,8 @@ ul {
 #closeall {
   left: 6px;
   top: 6px;
-  border-radius: 0px;
-  background: #67798E;
+  border-radius: 0;
+  background: #67798e;
 }
 
 #pop-des {
@@ -402,14 +403,14 @@ ul {
   height: 48px;
   width: 108px;
   left: 8px;
-  top: 0px;
-  border-radius: 0px;
+  top: 0;
+  border-radius: 0;
   padding: 12px;
   background: url(resources/seelive.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: center;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   color: white;
 }
 
@@ -418,21 +419,21 @@ ul {
   width: 108px;
   left: 8px;
   top: 72px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 12px;
   background: url(resources/source.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: center;
   color: white;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
 }
 
 .pop-item {
   border-right: 2px solid gray;
 }
 
-.pop {
+/* .pop {
   position: fixed;
   top: 0;
   left: 0;
@@ -444,7 +445,7 @@ ul {
   background-color: hsla(242, 53%, 20%, 0.819);
   backdrop-filter: blur(20px);
   overflow-y: scroll;
-}
+} */
 
 .desk-pop {
   position: fixed;
@@ -474,8 +475,8 @@ ul {
   width: 80%;
   justify-content: center;
   background: rgba(255, 255, 255, 0.16);
-  border: 1px solid #FFFFFF;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);  
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 .desk-pop-title {
@@ -490,9 +491,9 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFFFFF;
+  color: #fff;
   display: flex;
   align-items: center;
 }
@@ -505,8 +506,8 @@ ul {
 #deskcloseall {
   left: 6px;
   top: 6px;
-  border-radius: 0px;
-  background: #67798E;
+  border-radius: 0;
+  background: #67798e;
 }
 
 #desk-pop-des {
@@ -538,14 +539,14 @@ ul {
   height: 48px;
   width: 108px;
   left: 8px;
-  top: 0px;
-  border-radius: 0px;
+  top: 0;
+  border-radius: 0;
   padding: 12px;
   background: url(resources/seelive.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: center;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   color: white;
   padding-right: 30px;
 }
@@ -555,14 +556,14 @@ ul {
   width: 108px;
   left: 8px;
   top: 72px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 12px;
   background: url(resources/source.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: center;
   color: white;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
 }
 
 .desk-pop-item {
@@ -951,7 +952,7 @@ ul {
 
   .desktop-image {
     height: auto;
-    max-width: 50%;  
+    max-width: 50%;
   }
 
   .desktop-project1 {
