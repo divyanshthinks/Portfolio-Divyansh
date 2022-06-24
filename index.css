@@ -153,7 +153,6 @@ a:hover {
   font-size: 48px;
   text-align: center;
 }
-
 #main {
   margin-top: 120px;
   color: #7d73fc;
@@ -190,6 +189,7 @@ a:hover {
   background-image: url(resources/Ellipse\ 19.png);
   background-repeat: no-repeat;
   background-position: right;
+  background-size: contain;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   gap: 24px;
@@ -232,7 +232,7 @@ ul {
   padding-right: 15px;
 }
 
-.project1 {
+#project1 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -282,6 +282,18 @@ ul {
   font-weight: 500;
 }
 
+#mob-heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  color: #9490ff;
+  border-bottom: 2px solid #646369;
+  flex-wrap: wrap;
+  font-weight: 500;
+}
+
 #sub-heading1 {
   display: flex;
   align-items: center;
@@ -307,6 +319,254 @@ ul {
   background-size: 100% 100%;
 }
 
+.pop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  height: 100vh;
+  background-color: hsla(242, 53%, 20%, 0.819);
+  backdrop-filter: blur(20px);
+  overflow-y: scroll;
+}
+
+.pop1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);  
+}
+
+.pop-title {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+#pop-head {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+#pop-image {
+  width: 60%;
+  height: auto;
+}
+
+#closeall {
+  left: 6px;
+  top: 6px;
+  border-radius: 0px;
+  background: #67798E;
+}
+
+#pop-des {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 24px;
+  color: #fff;
+  width: 60%;
+  text-align: center;
+  order: 0;
+}
+
+.poplist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#live {
+  height: 48px;
+  width: 108px;
+  left: 8px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 12px;
+  background: url(resources/seelive.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-color: #7D73FC;
+  color: white;
+}
+
+#source {
+  height: 48px;
+  width: 108px;
+  left: 8px;
+  top: 72px;
+  border-radius: 0px;
+  padding: 12px;
+  background: url(resources/source.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  color: white;
+  background-color: #7D73FC;
+}
+
+.pop-item {
+  border-right: 2px solid gray;
+}
+
+.pop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  height: 100vh;
+  background-color: hsla(242, 53%, 20%, 0.819);
+  backdrop-filter: blur(20px);
+  overflow-y: scroll;
+}
+
+.desk-pop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: hsla(242, 53%, 20%, 0.819);
+  background-image: url("resources/two\ circles\ header.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: absolute;
+  overflow-y: scroll;
+}
+
+.desk-pop1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  padding-top: 40px;
+  width: 80%;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);  
+}
+
+.desk-pop-title {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+#desk-pop-head {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+#desk-pop-image {
+  width: 100%;
+  height: auto;
+}
+
+#deskcloseall {
+  left: 6px;
+  top: 6px;
+  border-radius: 0px;
+  background: #67798E;
+}
+
+#desk-pop-des {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 24px;
+  color: #fff;
+  width: 60%;
+  text-align: center;
+  order: 0;
+}
+
+.deskpoplist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.desk-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#desk-live {
+  height: 48px;
+  width: 108px;
+  left: 8px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 12px;
+  background: url(resources/seelive.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-color: #7D73FC;
+  color: white;
+}
+
+#desk-source {
+  height: 48px;
+  width: 108px;
+  left: 8px;
+  top: 72px;
+  border-radius: 0px;
+  padding: 12px;
+  background: url(resources/source.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  color: white;
+  background-color: #7D73FC;
+}
+
+.desk-pop-item {
+  border-right: 2px solid gray;
+  padding-right: 15px;
+}
+
 .lang {
   border-right: 1px solid gray;
   border-width: 1px;
@@ -317,7 +577,7 @@ ul {
   border: none;
 }
 
-.project2 {
+#project2 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -381,7 +641,7 @@ ul {
   background-size: 100% 100%;
 }
 
-.project3 {
+#project3 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -445,7 +705,7 @@ ul {
   background-size: 100% 100%;
 }
 
-.project4 {
+#project4 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -686,6 +946,11 @@ ul {
     display: none;
   }
 
+  .desktop-image {
+    height: auto;
+    max-width: 50%;  
+  }
+
   .desktop-project1 {
     display: flex;
     flex-direction: row;
@@ -708,7 +973,7 @@ ul {
     height: auto;
   }
 
-  .project1 {
+  #project1 {
     display: none;
   }
 
@@ -844,7 +1109,7 @@ ul {
     background: #5e42d7;
   }
 
-  .project2 {
+  #project2 {
     display: none;
   }
 
@@ -861,7 +1126,7 @@ ul {
     padding-left: 50px;
   }
 
-  .project3 {
+  #project3 {
     display: none;
   }
 
@@ -999,7 +1264,7 @@ ul {
     background: #5e42d7;
   }
 
-  .project4 {
+  #project4 {
     display: none;
   }
 
