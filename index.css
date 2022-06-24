@@ -458,7 +458,7 @@ ul {
   align-items: center;
   text-align: center;
   height: 100vh;
-  background-color: hsla(242, 53%, 20%, 0.819);
+  background-color: hsla(242, 53%, 20%, 1);
   background-image: url("resources/two\ circles\ header.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -481,21 +481,24 @@ ul {
 
 .desk-pop-title {
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: stretch;
+  width: 100%;
   align-items: center;
 }
 
 #desk-pop-head {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  height: 48px;
+  width: 1056px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  font-family: Roboto;
+  font-size: 40px;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0;
+  line-height: 32px;
+  letter-spacing: 0em;
   text-align: left;
-  color: #fff;
-  display: flex;
-  align-items: center;
+  color: #ffffff;
 }
 
 #desk-pop-image {
@@ -541,29 +544,32 @@ ul {
   left: 8px;
   top: 0;
   border-radius: 0;
-  padding: 12px;
   background: url(resources/seelive.png);
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: 95%;
   background-position-y: center;
   background-color: #7d73fc;
+  border: none;
   color: white;
   padding-right: 30px;
+  justify-content: center;
 }
 
 #desk-source {
   height: 48px;
   width: 108px;
   left: 8px;
-  top: 72px;
+  top: 0;
   border-radius: 0;
-  padding: 12px;
   background: url(resources/source.png);
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: 95%;
   background-position-y: center;
+  border: none;
   color: white;
   background-color: #7d73fc;
+  justify-content: center;
+  padding-right: 30px;
 }
 
 .desk-pop-item {
