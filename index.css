@@ -529,7 +529,9 @@ ul {
 
 .desk-buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
 }
 
 #desk-live {
@@ -545,6 +547,7 @@ ul {
   background-position-y: center;
   background-color: #7D73FC;
   color: white;
+  padding-right: 30px;
 }
 
 #desk-source {
