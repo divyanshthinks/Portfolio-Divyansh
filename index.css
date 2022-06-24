@@ -489,16 +489,16 @@ ul {
 #desk-pop-head {
   height: 48px;
   width: 1056px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: nullpx;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 500;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 #desk-pop-image {
