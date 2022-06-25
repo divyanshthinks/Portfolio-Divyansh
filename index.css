@@ -513,6 +513,10 @@ ul {
   background: #67798e;
 }
 
+#error {
+  display: none;
+}
+
 #desk-pop-des {
   font-family: "Roboto", sans-serif;
   font-style: normal;

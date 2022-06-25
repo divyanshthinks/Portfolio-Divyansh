@@ -382,8 +382,26 @@ deskpop.forEach(btn => {
    });
 });
 
+const form =  document.getElementById("sub-form");
 
+const email = document.getElementById("email");
+const msg = document.getElementById("error");
 
+const checkLowerCase = (email) => {
+   const examineLowerCase = /[A-Z]/g;
+ 
+   if (examineLowerCase.test(email)) {
+     return false;
+   }
+   return true;
+ };
 
-
-
+form.addEventListener('submit', (e) => {
+    if(checkLowerCase(email.value)){
+       msg.style.display = 'none';
+    }
+    else {
+       msg.style.display ='block';
+       e.preventDefault();
+    }
+});
